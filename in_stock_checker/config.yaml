@@ -1,0 +1,13 @@
+products:
+  union_serrated_crampons:
+    last_check: false
+    style: shopify
+    url: https://unionbindingcompany.com/products/union-splitboarding-serrated-crampon.js
+    variant_id: 47074190721279
+    last_date_reset: None
+  union_splitboard_strap:
+    last_check: true
+    style: shopify
+    url: https://unionbindingcompany.com/products/union-snowboard-binding-accessories-rubber-splitboard-strap.js
+    variant_id: 47074193342719
+    last_date_reset: None
