@@ -1,3 +1,4 @@
+# !/usr/bin/env python3
 import requests
 import yaml
 import os
@@ -40,7 +41,7 @@ def main():
         message = ""
         last_check = products[product].get("last_check")
         current_date = str(datetime.now().date())
-        if products[product].get["last_date_reset"] != current_date:
+        if products[product].get("last_date_reset") != current_date:
             last_check = None
             products[product]["last_date_reset"] = current_date
             message = f"Resetting last_check for {name} for new day.\n"
